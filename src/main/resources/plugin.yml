@@ -1,0 +1,6 @@
+name: Labirynt
+version: '${version}'
+
+main: d.dawid.labirynt.Labirynt
+api-version: '1.21.11'
+load: POSTWORLD
