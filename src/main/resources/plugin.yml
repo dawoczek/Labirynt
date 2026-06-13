@@ -1,6 +1,18 @@
 name: Labirynt
-version: '${version}'
-
+version: 1.0.0
 main: d.dawid.labirynt.Labirynt
-api-version: '1.21.11'
+api-version: '1.21'
 load: POSTWORLD
+description: Mini gra labirynt z mierzonym czasem przejscia
+author: dawoczek
+
+commands:
+  labirynt:
+    description: Glowna komenda obslugujaca labirynt
+    usage: /labirynt [top|mytime|restart|reset]
+
+permissions:
+  labirynt.admin:
+    description: Pozwala na uzycie komendy resetujacej baze danych.
+    default: op
+
